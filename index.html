@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css?v=1.0.1">
+</head>
+<body>
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="index.html">
+            <img src="NICKOLAY.INDUSTRIES.svg" alt="NICKOLAY.INDUSTRIES">
+        </a>
+        <button class="hamburger" aria-expanded="false" id="hamburger">
+            <img src="burger_menu_toggle.png" alt="Меню">
+        </button>
+        <ul class="nav-list">
+            <li><a href=#about_me>Обо мне</a></li>
+            <li><a href=#standarts>Стандарты</a></li>
+            <li><a href=#my-tech-stack-window>Навыки</a></li>
+            <li><a href=#my_cases>Работы</a></li>
+            <li><a href=#footer>Обратная связь</a></li>
+        </ul>
+    </div>
+    <div class="hamburger-menu-container">
+        <div class="hamburger-menu">
+            <div class="hamburger-menu-line num1 inActive">
+                <a href=#about_me>Обо мне</a>
+            </div>
+            <div class="hamburger-menu-line num2 inActive">
+                <a href=#standarts>Стандарты</a>
+            </div>
+            <div class="hamburger-menu-line num3 inActive">
+                <a href=#my-tech-stack-window>Навыки</a>
+            </div>
+            <div class="hamburger-menu-line num4 inActive">
+                <a href=#my_cases>Работы</a>
+            </div>
+            <div class="hamburger-menu-line num5 inActive">
+                <a href=#footer>Обратная связь</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="about-me-container">
+    <div class="about-me-subcontainer">
+        <div class="about-me-main-text">
+            <h1 class="about-me-main-text-title" id="about_me">МОЕ ПОРТФОЛИО</h1>
+        </div>
+        <div class="about-me-description">
+            <div class="about-me-description-text">
+                <h2 class="about-me-description-hi">Приветствую!</h2>
+                <h3 class="about-me-description-name">Меня зовут <span class="about-me-description-name-bold">Николай</span></h3>
+                <p class="about-me-description-text-p">Я занимаюсь созданием сайтов для самых разных целей</p>
+            </div>
+            <div class="about-me-photo">
+                <img src="hi_its_me.png" alt="Николай">
+            </div>
+        </div>
+    </div>
+    <div class="about-me-abilities">
+        <ul class="about-me-abilities-list">
+            <li class="list-ab numero1"><span class="about-me-abilities-list-bold">Frontend - разработчик</span></li>
+            <li class="list-ab numero2"><span class="about-me-abilities-list-bold">Ежедневно </span>совершенствую свои навыки</li>
+            <li class="list-ab numero3">Пишу код <span class="about-me-abilities-list-bold">сам</span></li>
+            <li class="list-ab numero4">Создам <span class="about-me-abilities-list-bold">гибкий</span> и <span class="about-me-abilities-list-bold">аккуратный</span> сайт</li>
+            <li class="list-ab numero5">Помогу <span class="about-me-abilities-list-bold">захостить</span> сайт</li>
+        </ul>
+    </div>
+</div>
+<div class="standarts-container" id="standarts">
+    <h2 class="my-std-title">Мои стандарты:</h2>
+    <div class="standarts-container-description">
+        <div class="standarts-container-description-modern std-descr">
+            <h3>Современная верстка (Flexbox & Grid)</h3>
+            <p>Сайты идеально отображаются на любых экранах — от смартфона до 4K-монитора. Следую принципу <span class="standarts-bold">Mobile-First</span></p>
+        </div>
+        <div class="standarts-container-description-pure std-descr">
+            <h3>Чистый код и семантика</h3>
+            <p>Пишу код по стандартам <span class="standarts-bold">W3C</span> без использования тяжелых конструкторов</p>
+        </div>
+        <div class="standarts-container-description-wordpress std-descr">
+            <h3>Управляемый WordPress</h3>
+            <p>Переношу верстку на <span class="standarts-bold">WordPress</span>. Вы сможете <span class="standarts-bold">легко</span> менять тексты, цены и картинки самостоятельно, <span class="standarts-bold">не боясь сломать дизайн</span></p>
+        </div>
+        <div class="standarts-container-description-javascript std-descr">
+            <h3>Живой интерфейс на JS</h3>
+            <p><span class="standarts-bold">Добавлю на сайт</span> легкую и плавную анимацию, удобные модальные окна, квизы и формы заявок</p>
+        </div>
+    </div>
+</div>
+<div class="my-tech-stack-window" id="my-tech-stack-window">
+    <div class="my-tech-stack-buttons">
+        <img src="hide.png" alt="Свернуть">
+        <img src="wind_switch.png" alt="Переход в оконный режим">
+        <img src="close.png" alt="Закрыть">
+    </div>
+    <div class="my-tech-stack-init">
+        <p id="my_tech_stack_loading_text"></p>
+        <p class="tech-success">Successful!</p>
+    </div>
+    <div class="my-tech-stack-result">
+        <div class="my-tech-stack-result-lang">
+            <p id="my_tech_stack_result_lang">Languages: HTML5, CSS3, JS(ES6+)</p>
+            <div class="my-tech-stack-result-lang-img">
+                <img class="html" src="html.png" alt="HTML5">
+                <img class="css" src="css.png" alt="CSS3">
+                <img class="js" src="js.png" alt="JavaScript">
+            </div>
+        </div>
+        <div class="my-tech-stack-result-layout">
+            <p id="my_tech_stack_result_layout">Layout: CSS Flexbox, CSS Grid</p>
+            <div class="my-tech-stack-result-layout-grid">
+                <div class="my-tech-stack-result-layout-grid-item-1"></div>
+                <div class="my-tech-stack-result-layout-grid-item-2"></div>
+                <div class="my-tech-stack-result-layout-grid-item-3"></div>
+                <div class="my-tech-stack-result-layout-grid-item-4"></div>
+                <div class="my-tech-stack-result-layout-grid-item-5"></div>
+                <div class="my-tech-stack-result-layout-grid-item-6"></div>
+            </div>
+        </div>
+        <div class="my-tech-stack-result-cms">
+            <p id="my_tech_stack_result_cms">CMS: WordPress</p>
+            <div class="my-tech-stack-result-cms-img">
+                <img class="wordpress" src="wordpress.png" alt="WordPress">
+            </div>
+        </div>
+        <div class="my-tech-stack-result-instruments">
+            <p id="my_tech_stack_result_instruments">Instruments: Figma, VS-Code, WebStorm, Git, Google Lighthouse </p>
+            <div class="my-tech-stack-result-instruments-img">
+                <img class="figma" src="figma.png" alt="Figma">
+                <img class="vscode" src="vscode.png" alt="VSCode">
+                <img class="git" src="git.png" alt="Git">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="my-cases-container" id="my_cases">
+    <div class="cases-title">
+        <h2>Мои работы:</h2>
+    </div>
+    <div class="cases-slider">
+        <div class="cases-slider-container">
+            <div class="cases-slider-line">
+                <div class="cases-slider-item">
+                    <img src="slider_item.png" alt="1">
+                </div>
+                <div class="cases-slider-item">
+                    <img src="slider_item.png" alt="2">
+                </div>
+                <div class="cases-slider-item">
+                    <img src="slider_item.png" alt="3">
+                </div>
+                <div class="cases-slider-item">
+                    <img src="slider_item.png" alt="4">
+                </div>
+                <div class="cases-slider-item">
+                    <img src="slider_item.png" alt="5">
+                </div>
+            </div>
+        </div>
+        <button class="slider-btn-prev" aria-label="Предыдущий слайд">
+            <img src="silder_prev.png" alt="Предыдущий слайд">
+        </button>
+        <button class="slider-btn-next" aria-label="Следующий слайд">
+            <img src="slider_next.png" alt="Следующий слайд">
+        </button>
+        <div class="cases-slider-points">
+            <div class="cases-slider-points-item .it1"></div>
+            <div class="cases-slider-points-item .it2"></div>
+            <div class="cases-slider-points-item .it3"></div>
+            <div class="cases-slider-points-item .it4"></div>
+            <div class="cases-slider-points-item .it5"></div>
+        </div>
+    </div>
+    <div class="cases-text">
+        <p id="task">Задача:<br><span id="task_text"></span></p>
+        <p id="requirements">Требования:<br><span id="requirements_text"></span></p>
+    </div>
+</div>
+<div class="footer" id="footer">
+    <div class="footer-title">
+        <h2>Обсудим ваш проект?</h2>
+    </div>
+    <div class="footer-text">
+        <div class="footer-tg">
+            <img src="tg.png" alt="Telegram">
+            <p>@nikolai_s_7534</p>
+        </div>
+        <div class="footer-vk">
+            <img src="vk.png" alt="VK">
+            <p>@nickolay_sadovnik</p>
+        </div>
+        <div class="footer-whatsapp">
+            <img src="what.png" alt="Whatsapp">
+            <p>+7 921 762-31-68</p>
+        </div>
+    </div>
+</div>
+<script src="index.js?v=1.0.1"></script>
+<script src="burger.js?v=1.0.1"></script>
+</body>
+</html>
